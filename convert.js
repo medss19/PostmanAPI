@@ -34,7 +34,7 @@ async function convertTextToImage(text) {
     url: 'https://api-inference.huggingface.co/models/ZB-Tech/text-to-image',
     headers: { 
       'Content-Type': 'application/json', 
-      'Authorization': 'Bearer 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' 
+      'Authorization': 'Bearer ' + process.env['ACCESS_TOKEN']
     },
     data: data,
     // Set a longer timeout as image generation can take time

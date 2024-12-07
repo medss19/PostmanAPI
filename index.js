@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 const summarizeText = require('./summarize.js');
 const convertTextToImage = require('./convert.js');
+require('dotenv').config();
 
 // Enable CORS for all routes
 app.use(cors());
