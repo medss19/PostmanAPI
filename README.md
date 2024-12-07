@@ -2,6 +2,11 @@
 
 ## AI Text Summarizer and Image Generator  
 
+![App Screenshot]("C:\Users\Medha Agarwal\Pictures\Screenshots\Screenshot 2024-12-07 190036.png")  
+![App Screenshot](""C:\Users\Medha Agarwal\Pictures\Screenshots\Screenshot 2024-12-07 190056.png"")  
+A full-stack web application using Node.js and Express.js, featuring AI-powered text summarization and image generation.
+
+
 This is a full-stack web application built with **Node.js** and **Express.js** that demonstrates the power of AI by integrating two APIs:  
 - **Text Summarization** using [Hugging Face's BART Large CNN model](https://api-inference.huggingface.co/models/facebook/bart-large-cnn).  
 - **Text-to-Image Generation** using [Hugging Face's Text-to-Image API](https://api-inference.huggingface.co/models/ZB-Tech/text-to-image).  
