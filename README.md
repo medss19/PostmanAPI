@@ -2,9 +2,15 @@
 
 ## AI Text Summarizer and Image Generator  
 
-![App Screenshot]("C:\Users\Medha Agarwal\Pictures\Screenshots\Screenshot 2024-12-07 190036.png")  
-![App Screenshot](""C:\Users\Medha Agarwal\Pictures\Screenshots\Screenshot 2024-12-07 190056.png"")  
-A full-stack web application using Node.js and Express.js, featuring AI-powered text summarization and image generation.
+1. **Text Summarization**  
+   Enter a large block of text (min. 200 characters) and click the "Summarize" button to generate a concise summary.
+
+![Summarization Example](./screenshots/summarize_example.png)
+
+2. **Text-to-Image Generation**  
+   Enter a text description of the image you want, and click the "Generate Image" button to generate an image.
+
+![Image Generation Example](./screenshots/imagegen_example.png)
 
 
 This is a full-stack web application built with **Node.js** and **Express.js** that demonstrates the power of AI by integrating two APIs:  
